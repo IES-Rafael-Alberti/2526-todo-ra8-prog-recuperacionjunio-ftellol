@@ -1,10 +1,14 @@
 package org.iesra.app
 
+import java.io.File
 import java.nio.file.Path
 
 class PhotoRenamerApp {
-
     fun run(inputPath: Path) {
+        val LeerArchivos = InputFileReader()
+
+
+
         // Leer el fichero de entrada ya validado por ArgumentParser.
 
         // Validar el formato general del fichero y construir el objeto TripInput.
